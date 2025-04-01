@@ -67,6 +67,11 @@ body {
   font-weight: 700;
   font-size: 24px;
 }
+@font-face {
+  font-family: "Fraunces";
+  src: url("Fraunces.woff2") format("woff2"),
+    url("Fraunces.woff") format("woff"); /* Local font files */
+}
 .price s {
   font-size: 1rem;
   color: black;
