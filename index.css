@@ -40,6 +40,9 @@ body {
   flex-direction: column;
   padding: 2rem;
 }
+.card__tag {
+  letter-spacing: 5px;
+}
 
 .card__title {
   font-family: "Fraunces", sans-serif;
@@ -59,9 +62,14 @@ body {
   font-size: 1.5rem;
   color: var(--clr-primary-500);
 }
-
+.price strong {
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  font-size: 24px;
+}
 .price s {
   font-size: 1rem;
+  color: black;
 }
 
 .card__btn {
@@ -75,6 +83,10 @@ body {
   border-radius: 8px;
   text-decoration: none;
   cursor: pointer;
+}
+.card__btn img {
+  max-width: 20px;
+  color: white;
 }
 
 .card__btn:hover {
