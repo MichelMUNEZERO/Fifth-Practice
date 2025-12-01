@@ -1,0 +1,135 @@
+.Header-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 5px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  background-color: #ffffff;
+  border-radius: 18px;
+  border-bottom: 2px solid #6a87ad;
+  box-shadow: 0 20px 45px rgba(22, 28, 45, 0.08);
+}
+
+.logo-image img {
+  width: 120px;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+
+.header-middle {
+  flex: 1;
+}
+
+.header-middle ul {
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header-middle li {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #1f2933;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  position: relative;
+  transition: color 0.2s ease;
+}
+
+.header-middle li::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  width: 100%;
+  height: 2px;
+  background: blue;
+  opacity: 0;
+}
+
+.header-middle li:hover {
+  color: blue;
+  text-decoration: none;
+}
+
+.button-header {
+  flex-shrink: 0;
+}
+
+.signup-login-button {
+  padding: 14px 30px;
+  border-radius: 10px;
+  border: none;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffffff;
+  background: blue;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.signup-login-button:hover {
+  transform: translateY(-1px);
+  color: #ffffff;
+  background-color: #1f2933;
+}
+
+.home-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 32px;
+  display: flex;
+}
+.header-home {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1f2933;
+  margin-bottom: 20px;
+}
+
+.header-home p {
+  font-size: 1.2rem;
+  color: #4b5563;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.description-image {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+.description-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+.get-started {
+  padding: 12px 28px;
+  margin-right: 16px;
+  border-radius: 10px;
+  border: none;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffffff;
+  background: blue;
+  cursor: pointer;
+}
+
+.learn-more {
+  padding: 12px 28px;
+  border-radius: 10px;
+  border: none;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffffff;
+  background: gray;
+  cursor: pointer;
+}
