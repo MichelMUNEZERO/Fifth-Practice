@@ -4,6 +4,27 @@ import { BsQrCodeScan } from "react-icons/bs";
 import { MdMobileFriendly } from "react-icons/md";
 import { RiSecurePaymentLine } from "react-icons/ri";
 
+const features = [
+  {
+    icon: BsQrCodeScan,
+    title: "QR Code Payments",
+    description:
+      "Secure and fast payment system using QR codes—no cash or card hassles during meal times.",
+  },
+  {
+    icon: RiSecurePaymentLine,
+    title: "Secure Platform",
+    description:
+      "Your payments and personal information stay protected with enterprise-grade security.",
+  },
+  {
+    icon: MdMobileFriendly,
+    title: "Mobile Friendly",
+    description:
+      "Access your account, check balances, and make payments right from your smartphone.",
+  },
+];
+
 export default function About() {
   return (
     <div>
@@ -27,30 +48,13 @@ export default function About() {
                 dining experience.
               </p>
               <div className="about-features">
-                <div className="about-feature">
-                  <BsQrCodeScan />
-                  <h3>QR Code Payments</h3>
-                  <p>
-                    Secure and fast payment system using QR codes. No more cash
-                    or card hassles during meal times.
-                  </p>
-                </div>
-                <div className="about-feature">
-                  <RiSecurePaymentLine />
-                  <h3> Secure Platform</h3>
-                  <p>
-                    Access your account, check balance, and make payments right
-                    from your smartphone.
-                  </p>
-                </div>
-                <div className="about-feature">
-                  <MdMobileFriendly />
-                  <h3>Mobile Friendly</h3>
-                  <p>
-                    Your payments and personal information are protected with
-                    enterprise-grade security.
-                  </p>
-                </div>
+                {features.map(({ icon: Icon, title, description }) => (
+                  <div className="about-feature" key={title}>
+                    <Icon aria-hidden="true" />
+                    <h3>{title}</h3>
+                    <p>{description}</p>
+                  </div>
+                ))}
               </div>
             </div>
           </div>
