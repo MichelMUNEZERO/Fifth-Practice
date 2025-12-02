@@ -1,16 +1,10 @@
-.about-section {
-  padding: 80px 16px 36px;
-  background: linear-gradient(180deg, #ffffff 0%, #f7f9fc 100%);
-  color: #1a2a6c;
-}
-
 .about-container {
-  max-width: 1100px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 48px 32px;
-  background: #ffffff;
+  background: #fff;
   border-radius: 32px;
-  box-shadow: 0 35px 70px rgba(15, 23, 42, 0.08);
+  box-shadow: 0 35px 70px rgba(15, 23, 42, 0.12);
   text-align: center;
 }
 
