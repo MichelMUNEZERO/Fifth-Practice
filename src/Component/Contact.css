@@ -154,8 +154,14 @@
   outline: none;
 }
 
+.button-group {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 .submit-button {
-  align-self: flex-start;
   padding: 14px 32px;
   border: none;
   border-radius: 12px;
@@ -167,9 +173,26 @@
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
+.Whatsapp-button {
+  padding: 14px 32px;
+  border: none;
+  border-radius: 12px;
+  background: #25d366;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
 .submit-button:hover {
   transform: translateY(-2px);
   box-shadow: 0 15px 25px rgba(37, 99, 235, 0.25);
+}
+
+.Whatsapp-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 15px 25px rgba(37, 211, 102, 0.25);
 }
 
 @media (max-width: 768px) {

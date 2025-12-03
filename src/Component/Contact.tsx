@@ -88,9 +88,14 @@ export default function Contact() {
               <label htmlFor="message">Message</label>
               <textarea id="message" name="message" rows={5} required />
             </div>
-            <button type="submit" className="submit-button">
-              Send Message
-            </button>
+            <div className="button-group">
+              <button type="submit" className="submit-button">
+                Send Message
+              </button>
+              <button type="button" className="Whatsapp-button">
+                WhatsApp
+              </button>
+            </div>
           </form>
         </div>
       </div>
