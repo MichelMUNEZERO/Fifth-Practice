@@ -44,16 +44,56 @@ export default function Footer() {
           <h3>Quick Links</h3>
           <ul>
             <li>
-              <a href="#">Home</a>
+              <a
+                href="#home"
+                onClick={(e) => {
+                  e.preventDefault();
+                  document
+                    .getElementById("home")
+                    ?.scrollIntoView({ behavior: "smooth" });
+                }}
+              >
+                Home
+              </a>
             </li>
             <li>
-              <a href="#">About Us</a>
+              <a
+                href="#about"
+                onClick={(e) => {
+                  e.preventDefault();
+                  document
+                    .getElementById("about")
+                    ?.scrollIntoView({ behavior: "smooth" });
+                }}
+              >
+                About Us
+              </a>
             </li>
             <li>
-              <a href="#">Services</a>
+              <a
+                href="#services"
+                onClick={(e) => {
+                  e.preventDefault();
+                  document
+                    .getElementById("services")
+                    ?.scrollIntoView({ behavior: "smooth" });
+                }}
+              >
+                Services
+              </a>
             </li>
             <li>
-              <a href="#">Contact</a>
+              <a
+                href="#contact"
+                onClick={(e) => {
+                  e.preventDefault();
+                  document
+                    .getElementById("contact")
+                    ?.scrollIntoView({ behavior: "smooth" });
+                }}
+              >
+                Contact
+              </a>
             </li>
           </ul>
         </div>

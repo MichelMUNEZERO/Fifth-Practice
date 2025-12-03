@@ -37,10 +37,16 @@ export default function Home() {
   }, [isMenuOpen]);
 
   const toggleMenu = () => setIsMenuOpen((prev) => !prev);
-  const handleNavClick = () => setIsMenuOpen(false);
+  const handleNavClick = (sectionId: string) => {
+    setIsMenuOpen(false);
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  };
 
   return (
-    <div className="home-landing">
+    <div className="home-landing" id="home">
       <header className="Header-content">
         <div className="logo-image">
           <img src={image} alt="School restaurant logo" />
@@ -58,7 +64,10 @@ export default function Home() {
           <ul>
             {navigationItems.map((item) => (
               <li key={item}>
-                <button type="button" onClick={handleNavClick}>
+                <button
+                  type="button"
+                  onClick={() => handleNavClick(item.toLowerCase())}
+                >
                   {item}
                 </button>
               </li>
@@ -94,7 +103,10 @@ export default function Home() {
           <ul className="mobile-menu__links">
             {navigationItems.map((item) => (
               <li key={`${item}-mobile`}>
-                <button type="button" onClick={handleNavClick}>
+                <button
+                  type="button"
+                  onClick={() => handleNavClick(item.toLowerCase())}
+                >
                   {item}
                 </button>
               </li>

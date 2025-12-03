@@ -35,7 +35,11 @@ const socialLinks = [
 
 export default function Contact() {
   return (
-    <section className="contact" id="contact">
+    <section
+      className="contact"
+      id="contact"
+      style={{ scrollMarginTop: "80px" }}
+    >
       <div className="contact-container">
         <div className="contact-header">
           <h2>Contact Us</h2>

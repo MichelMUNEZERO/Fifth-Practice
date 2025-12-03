@@ -27,8 +27,8 @@ const features = [
 
 export default function About() {
   return (
-    <div>
-      <section className="about-section">
+    <div id="about">
+      <section className="about-section" id="services">
         <div className="about-container">
           <h3>About Dusangire</h3>
           <div className="about-content">
