@@ -9,7 +9,7 @@ const features = [
     icon: BsQrCodeScan,
     title: "QR Code Payments",
     description:
-      "Secure and fast payment system using QR codes—no cash or card hassles during meal times.",
+      "Secure and fast payment system using QR codes no cash or card hassles during meal times.",
   },
   {
     icon: RiSecurePaymentLine,
@@ -34,14 +34,14 @@ export default function About() {
           <div className="about-content">
             <div className="about-text">
               <p>
-                DUSANGIRE is revolutionizing campus dining through a
-                state-of-the-art digital payment system designed specifically
-                for educational institutions. Our mission is to make meal
-                payments quicker, more secure, and incredibly convenient for
-                students, faculty, and staff.
+                DUSANGIRE is revolutionizing campus dining through a state of
+                the art digital payment system designed specifically for
+                educational institutions. Our mission is to make meal payments
+                quicker, more secure, and incredibly convenient for students,
+                faculty, and staff.
               </p>
               <p>
-                By integrating cutting-edge technology with user-friendly
+                By integrating cutting edge technology with user-friendly
                 interfaces, we eliminate the hassles of traditional payment
                 methods. No more waiting in long lines, carrying cash, or
                 dealing with lost meal cards. DUSANGIRE streamlines the entire

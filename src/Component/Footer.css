@@ -34,13 +34,14 @@ footer {
   line-height: 1.6;
 }
 
-.social-icons {
+.footer-social-icons {
   margin-top: 20px;
   display: flex;
   gap: 16px;
 }
 
-.social-icons a {
+.footer-social-icons a {
+  margin-top: 3px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -54,7 +55,7 @@ footer {
   transition: all 0.3s ease;
 }
 
-.social-icons a:hover {
+.footer-social-icons a:hover {
   background-color: #2563eb;
   color: #fff;
   border-color: #2563eb;
@@ -94,6 +95,8 @@ footer {
 
 .footer-links a:hover {
   color: #2563eb;
+  text-decoration: underline;
+  font-weight: 600;
 }
 
 .footer-contact {
@@ -123,9 +126,8 @@ footer {
   flex-basis: 100%;
   width: 100%;
   text-align: center;
-  padding: 20px;
+  padding: 10px;
   border-top: 1px solid #e2e8f0;
-  margin-top: 20px;
   color: #94a3b8;
   font-size: 0.9rem;
   background-color: #f1f5f9;

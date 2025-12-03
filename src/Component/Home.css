@@ -138,9 +138,6 @@
   margin-bottom: 24px;
   line-height: 1.2;
 }
-.section-label span {
-  color: blue;
-}
 
 .header-home p {
   font-size: 1.15rem;
@@ -149,10 +146,6 @@
   line-height: 1.7;
 }
 
-.highlight-text {
-  color: #0246ff;
-  font-weight: 600;
-}
 .cta-buttons {
   display: flex;
   flex-wrap: wrap;
@@ -217,6 +210,7 @@
   margin-bottom: 20px;
   padding-left: 50px;
   font-weight: 600;
+  color: #026374;
 }
 
 .nav-toggle {

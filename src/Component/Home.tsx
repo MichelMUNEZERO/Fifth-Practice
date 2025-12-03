@@ -125,7 +125,7 @@ export default function Home() {
         <div className="header-home">
           <h2>DUSANGIRE</h2>
           <span className="lets">
-            Let's <strong>share</strong>
+            Let's <strong className="share">share</strong>
           </span>
           <p>
             Experience the future of campus dining with our digital payment

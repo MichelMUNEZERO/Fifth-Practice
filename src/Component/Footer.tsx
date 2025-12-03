@@ -22,7 +22,7 @@ export default function Footer() {
             Transforming campus dining experiences through innovative digital
             payment solutions. Quick, secure, and convenient for every student.
           </p>
-          <div className="social-icons">
+          <div className="footer-social-icons">
             <a href="#">
               <BsTwitterX />
             </a>
