@@ -98,8 +98,8 @@
 
 .signup-login-button:hover {
   transform: translateY(-1px);
-  color: #ffffff;
-  background-color: #1f2933;
+  color: #000000;
+  background-color: #ffffff;
 }
 
 .home-content {
@@ -173,7 +173,12 @@
 
 .get-started {
   color: #fff;
-  background: blue;
+  background: #2563eb;
+  box-shadow: 0 10px 20px rgba(2, 70, 255, 0.3);
+}
+.get-started:hover {
+  color: #000000;
+  background: #c0c8da;
   box-shadow: 0 10px 20px rgba(2, 70, 255, 0.3);
 }
 
@@ -181,6 +186,11 @@
   color: #1f2933;
   background: transparent;
   border: 1px solid rgba(15, 23, 42, 0.2);
+}
+.learn-more:hover {
+  color: #e2e2e2;
+  background: #2563eb;
+  border: 1px solid rgba(255, 255, 255, 1);
 }
 
 .description-image {

@@ -9,7 +9,7 @@ import mobileLogo from "./Photo/Mobile logo.png";
 export default function Home() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const navigationItems = useMemo(
-    () => ["Home", "About", "Contact", "Blog"],
+    () => ["Home", "About", "Contact", "Services"],
     []
   );
 
@@ -66,7 +66,7 @@ export default function Home() {
           </ul>
         </nav>
         <div className="button-header">
-          <button className="signup-login-button">Login/ Sign Up</button>
+          <button className="signup-login-button">Login / SignUp</button>
         </div>
       </header>
 
@@ -104,7 +104,7 @@ export default function Home() {
             className="signup-login-button mobile-menu__cta"
             onClick={handleNavClick}
           >
-            Login/ Sign Up
+            Login / Sign Up
           </button>
         </div>
       </div>

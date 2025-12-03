@@ -7,6 +7,10 @@ import { CiFacebook, CiLinkedin } from "react-icons/ci";
 import { FaInstagram } from "react-icons/fa";
 import { PiTiktokLogoLight } from "react-icons/pi";
 import { MdOutlineSupportAgent } from "react-icons/md";
+import { LiaBalanceScaleSolid } from "react-icons/lia";
+import { MdOutlinePayments } from "react-icons/md";
+import { PiStudentDuotone } from "react-icons/pi";
+import { GrPlan } from "react-icons/gr";
 
 export default function Footer() {
   return (
@@ -82,6 +86,38 @@ export default function Footer() {
                 <MdOutlineSupportAgent />
               </i>
               Support: 24/7 Available
+            </li>
+          </ul>
+        </div>
+        <div className="footer-contact">
+          <h3>Our Services</h3>
+
+          <ul>
+            <li>
+              <i>
+                <LiaBalanceScaleSolid />{" "}
+              </i>
+              Balance Tracking
+            </li>
+            <li>
+              <i>
+                {" "}
+                <MdOutlinePayments />
+              </i>{" "}
+              Digital Meal Payments
+            </li>
+            <li>
+              <i>
+                {" "}
+                <PiStudentDuotone />
+              </i>
+              Student Account Management
+            </li>
+            <li>
+              <i>
+                <GrPlan />
+              </i>
+              Meal Planning
             </li>
           </ul>
         </div>
