@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
 import "./Home.css";
 
@@ -114,7 +114,7 @@ export default function Home() {
           </ul>
           <button
             className="signup-login-button mobile-menu__cta"
-            onClick={handleNavClick}
+            onClick={toggleMenu}
           >
             Login / Sign Up
           </button>

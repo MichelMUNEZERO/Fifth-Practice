@@ -1,4 +1,3 @@
-import React from "react";
 import "./Contact.css";
 import { FiPhoneCall } from "react-icons/fi";
 import { MdOutlineLocationOn, MdOutlineMarkEmailRead } from "react-icons/md";

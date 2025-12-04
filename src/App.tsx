@@ -1,4 +1,3 @@
-import { useState } from "react";
 import Home from "./Component/Home";
 import About from "./Component/About";
 import Contact from "./Component/Contact";

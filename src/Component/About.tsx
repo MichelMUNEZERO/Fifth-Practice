@@ -1,4 +1,3 @@
-import React from "react";
 import "./About.css";
 import { BsQrCodeScan } from "react-icons/bs";
 import { MdMobileFriendly } from "react-icons/md";
